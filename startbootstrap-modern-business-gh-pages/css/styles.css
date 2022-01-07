@@ -4504,7 +4504,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: rgb(137, 252, 7);
 }
 
 .card {
@@ -11310,4 +11310,121 @@ html {
 }
 .py-5 {
   background-color: #c8f800;
+}
+.events .card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.events .card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+.events .card-img img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.events .card-body {
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+}
+.events .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.events .card-title a {
+  color: #000;
+  transition: 0.3s;
+}
+.events .card-text {
+  color: #5e5e5e;
+}
+.events .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.events .read-more a:hover {
+  color: #5C0632;
+}
+.events .card:hover img {
+  transform: scale(1.1);
+}
+.events .card:hover .card-body {
+  border-color: #9dff00d0;
+}
+.events .card:hover .card-body .card-title a {
+  color: #9dff00d0;
+}
+.events1 .card {
+  border: 100px;
+  padding: 10 30px;
+  margin-top: 200px;
+  margin-bottom: 1190px;
+  margin-left: -510px;
+  position: relative;
+}
+.events1 .card-img {
+  width: calc(100% + 160px);
+  margin-left: -30px;
+  overflow: visible;
+  z-index: 9;
+  border-radius: 0;
+}
+.events1 .card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.events1 .card-body {
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+}
+.events1 .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.events1 .card-title a {
+  color: #37423b;
+  transition: 0.3s;
+}
+.events1 .card-text {
+  color: #5e5e5e;
+}
+.events1 .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.events1 .read-more a:hover {
+  color: #9dff00d0;
+}
+.events1 .card:hover img {
+  transform: scale(1.1);
+}
+.events1 .card:hover .card-body {
+  border-color: #9dff00d0;
+}
+.events1 .card:hover .card-body .card-title a {
+  color: #9dff00d0;
 }
