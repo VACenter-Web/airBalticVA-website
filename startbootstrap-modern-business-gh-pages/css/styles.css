@@ -11428,5 +11428,56 @@ html {
 .events1 .card:hover .card-body .card-title a {
   color: #9dff00d0;
 }
-
-
+.services .icon-box {
+  padding: 50px 20px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 1px solid #ebe6e4;
+  height: 200px;
+  position: relative;
+  background: #faf9f8;
+}
+.services .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #bcf002;
+}
+.services .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.services .title a {
+  color: #343a40;
+}
+.services .icon-box:hover .icon {
+  background: #fff;
+  border: 2px solid #bcf002;
+}
+.services .icon-box:hover .icon i {
+  color: #bcf002;
+}
+.services .icon-box:hover .title a {
+  color: #bcf002;
+}
+.services .description {
+  line-height: 24px;
+  font-size: 14px;
+}
